@@ -1,0 +1,22 @@
+contract_id,label
+1,phishing
+2,phishing
+3,phishing
+4,phishing
+5,phishing
+6,benign
+7,benign
+8,benign
+9,benign
+10,benign
+# NOTE TO TEAM: This file contains ONLY placeholder rows for 10 of 22,000 contracts.
+# The full class_labels.csv must be generated from:
+#   - Phishing set: 6,000 entries from Pan et al. (2020) ACM artifact,
+#     positive-class entries after bytecode-SHA-256 deduplication.
+#   - Benign set: 16,000 entries from Ebrahimi et al. (2022) Etherscan corpus,
+#     filtered to exclude any address in the phishing set.
+# Split counts MUST reconcile with README and paper:
+#   Train:  phishing=3,300 + benign=12,100 = 15,400 total
+#   Val:    phishing=  705 + benign= 2,595 =  3,300 total
+#   Test:   phishing=  900 + benign= 2,400 =  3,300 total  (Section 7.4 partition)
+# Replace this file with the real 22,000-row CSV before submission.

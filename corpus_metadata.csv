@@ -1,0 +1,10 @@
+contract_id,address,source,bytecode_file,sha256,label,split
+1,0x<REAL_ADDRESS_1>,pan2020,bytecode/0001.hex,<REAL_SHA256_1>,phishing,train
+2,0x<REAL_ADDRESS_2>,pan2020,bytecode/0002.hex,<REAL_SHA256_2>,phishing,train
+3,0x<REAL_ADDRESS_3>,ebrahimi2022,bytecode/0003.hex,<REAL_SHA256_3>,benign,train
+# NOTE TO TEAM: Replace every <REAL_ADDRESS_N> and <REAL_SHA256_N> with actual
+# Ethereum contract addresses and SHA-256 hashes of the corresponding .hex bytecode files.
+# Full corpus: 22,000 rows matching class_labels.csv exactly.
+# Phishing source citation: Pan, Z. et al. (2020) ACM Digital Library artifact.
+# Benign source citation: Ebrahimi, M. et al. (2022) Etherscan verified-contract collection.
+# No "PLACEHOLDER_SHA256" strings must remain in the submitted package.

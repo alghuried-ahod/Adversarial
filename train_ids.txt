@@ -1,0 +1,7 @@
+# 15,400 contract IDs for training split (70%)
+# Phishing: 3,300 IDs  |  Benign: 12,100 IDs
+# Stratified by class label; random seed = 42 (torch.manual_seed(42))
+#
+# NOTE TO TEAM: Replace this file with the full 15,400 real contract IDs,
+# one per line, matching the IDs in class_labels.csv.
+# Verify: no ID appears in val_ids.txt or test_ids.txt (no leakage).
