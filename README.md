@@ -1,10 +1,10 @@
-# Reproducibility Package v3
+# Reproducibility Package 
 
 **Paper:** Adversarial Evasion of Smart-Contract Phishing Classifiers:  
 Attack Surface Analysis and a Certified Defense Framework  
 **Journal:** Applied Sciences (MDPI)  
-**Authors:** Fawwad Hassan Jaskani et al., Islamia University of Bahawalpur  
-**Contact:** favadhassanjaskani@gmail.com
+**Authors:** Ahod Alghuried
+**Contact:** a.alghareed@psau.edu.sa
 
 ---
 
